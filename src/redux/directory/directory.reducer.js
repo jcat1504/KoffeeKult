@@ -1,36 +1,43 @@
+import {
+  CoffeeGear,
+  Gifts,
+  LearnCoffee,
+  LooseTea,
+  EspBeans } from './directoryImages';
+
 const INITIAL_STATE = {
   sections: [
     {
-      title: 'hats',
-      imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+      title: 'gifts',
+      imageUrl: Gifts,
       id: 1,
-      linkUrl: 'shop/hats'
+      linkUrl: 'shop/gifts'
     },
     {
-      title: 'jackets',
-      imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+      title: 'gear',
+      imageUrl: CoffeeGear,
       id: 2,
-      linkUrl: 'shop/jackets'
+      linkUrl: 'shop/gear'
     },
     {
-      title: 'sneakers',
-      imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+      title: 'limited release',
+      imageUrl: LearnCoffee,
       id: 3,
-      linkUrl: 'shop/sneakers'
+      linkUrl: 'shop/limited-release'
     },
     {
-      title: 'womens',
-      imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+      title: 'coffee',
+      imageUrl: EspBeans,
       size: 'large',
       id: 4,
-      linkUrl: 'shop/womens'
+      linkUrl: 'shop/coffee'
     },
     {
-      title: 'mens',
-      imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+      title: 'tea',
+      imageUrl: LooseTea,
       size: 'large',
       id: 5,
-      linkUrl: 'shop/mens'
+      linkUrl: 'shop/tea'
     }
   ]
 };
