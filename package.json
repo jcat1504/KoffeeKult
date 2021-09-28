@@ -24,9 +24,9 @@
     "reselect": "4.0.0",
     "styled-components": "4.2.0"
   },
-  "engines" : { 
-    "node" : ">=0.12",
-    "engineStrict" : "true"
+  "engines": {
+    "node": ">=0.12",
+    "engineStrict": "true"
   },
   "devDependencies": {
     "react-scripts": "3.0.0"
