@@ -24,10 +24,13 @@
     "reselect": "4.0.0",
     "styled-components": "4.2.0"
   },
+<<<<<<< HEAD
   "engines": {
     "node": ">=0.12",
     "engineStrict": "true"
   },
+=======
+>>>>>>> bd6b98580cea332eab15457355ecd657779da9cb
   "devDependencies": {
     "react-scripts": "3.0.0"
   },
